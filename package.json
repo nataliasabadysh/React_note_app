@@ -17,6 +17,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
+    "shortid": "^2.2.15",
     "yup": "^0.27.0"
   },
   "scripts": {
@@ -24,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "s": "json-server db.json -p 8086 -d 200",
+    "server": "json-server --watch ./server/db.json --port 4040",
     "prettier": "prettier-eslint --list-different \"./source/**/*.js\"; prettier-eslint --write \"./source/**/*.js\""
   },
   "eslintConfig": {

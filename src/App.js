@@ -1,10 +1,16 @@
 // Core
 import React from 'react';
 // Components
-import Notes from './components/Notess';
+import NotesEditor from './components/NotesEditor/NotesEditor';
+import NotesList from './components/NoteList';
 // Instruments
-import './App.css';
+import './static/index.css';
 
-const App = () => <Notes />
+const App = () =>(
+    <>
+     <NotesList />
+     <NotesEditor />
+    </>
+)
 
 export default App;
