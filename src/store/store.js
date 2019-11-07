@@ -8,7 +8,7 @@ import rootModule from '../store/rootModules';
 
 const logger = createLogger();
 
-const middlewares = applyMiddleware(thunk, logger);
+const middlewares = applyMiddleware(logger, thunk);
 
 const enhancer = composeWithDevTools(middlewares);
 

@@ -1,16 +1,6 @@
 // Types
 import types from '../actions/types';
 
-const toggleNote = id => ({
-  type: types.TOGGLE_COMPLETED,
-  payload: id,
-});
-
-const changeFilter = filter => ({
-  type: types.CHANGE_FILTER,
-  payload: filter,
-});
-
 const fetchRequest = () => ({
   type: types.FETCH_REQUEST,
 });
@@ -23,6 +13,11 @@ const fetchSuccess = notes => ({
 const addNoteSuccess = note => ({
   type: types.ADD_SUCCESS,
   payload: note,
+});
+
+const updateNoteSuccess = id => ({
+  type: types.DELETE_SUCCESS,
+  payload: id,
 });
 
 const deleteNoteSuccess = id => ({
@@ -38,8 +33,7 @@ const fetchError = error => ({
 export default {
   addNoteSuccess,
   deleteNoteSuccess,
-  toggleNote,
-  changeFilter,
+  updateNoteSuccess,
   fetchRequest,
   fetchSuccess,
   fetchError,

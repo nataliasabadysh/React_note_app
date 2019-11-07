@@ -2,7 +2,7 @@
 import React from 'react';
 // Components
 import NotesEditor from './components/NotesEditor/NotesEditor';
-import NotesList from './components/NoteList';
+import NotesList from './components/NoteList/NoteListContainer';
 // Instruments
 import './static/index.css';
 

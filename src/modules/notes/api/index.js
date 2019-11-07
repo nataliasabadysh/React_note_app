@@ -2,9 +2,7 @@
 import axios from 'axios';
 import actions from '../actions/actions';
 
-// Root Url
-const URL = "http://localhost:4040";
-
+// Get all Notes 
 const fetchNotes = () => async dispatch => {
   dispatch(actions.fetchRequest());
 

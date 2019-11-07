@@ -1,16 +1,6 @@
 {
-  "notes": [
-    {
-      "text": "new note #3",
-      "id": "DuS~IkS"
-    },
-    {
-      "text": "new note #4",
-      "id": "qHPREih"
-    },
-    {
-      "text": "sggsg",
-      "id": "LZeKqJv"
-    }
-    ]
+  "notes": [{
+    "id": "1",
+    "text": "text"
+  }]
 }

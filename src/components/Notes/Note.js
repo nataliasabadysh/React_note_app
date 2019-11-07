@@ -2,7 +2,7 @@
 // Core 
 import React from 'react';
 
-const Note = ({ text, onDelete }) =>(
+const Note = ({ text, onDelete }) => (
       <div
       style={{
         minWidth: 320,

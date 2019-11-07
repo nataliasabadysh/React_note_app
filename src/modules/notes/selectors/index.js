@@ -1,12 +1,11 @@
 const getItems = state => state.notes.items;
 
-const getFilter = state => state.notes.filter;
+// const getFilter = state => state.notes.filter;
 
-const getVisibleNotes = state => {
-  const items = getItems(state);
-  const filter = getFilter(state).toLowerCase();
+// const getVisibleNotes = state => {
+//   const items = getItems(state);
 
-  return items.filter(item => item.text.toLowerCase().includes(filter));
-};
+//   return items.filter(item => item.text.toLowerCase().includes(filter));
+// };
 
-export default { getItems, getFilter, getVisibleNotes };
+export default { getItems };
